@@ -12,7 +12,6 @@ let queue = [s]
 let done = false
 
 while (queue.length > 0) {
-    console.log(queue)
     let curr = queue.shift()
     
     //If the new string is valid, we know we've found the minimum 
